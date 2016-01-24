@@ -1,0 +1,40 @@
+<Move>
+  <name>Petal Dance</name>
+  <type>GRASS</type>
+  <PP>10</PP>
+  <accuracy>100</accuracy>
+  <speed>0</speed>
+  <DT>SPECIAL</DT>
+  <effect>
+    <require>
+	</require>
+    <effect>
+	  <Damage>
+	    <power>120</power>
+	  </Damage>
+	  <SetFlag>
+	    <target>user</target>
+		<flag>6</flag>
+	  </SetFlag>
+	  <SetFlag>
+	    <target>user</target>
+		<flag>7</flag>
+	  </SetFlag>
+	  <SetCounter>
+	    <target>user</target>
+		<counter>6</counter>
+		<type>random</type>
+		<min>2</min>
+		<max>3</max>
+	  </SetCounter>
+    </effect>
+  </effect>
+  <isContact>true</isContact>
+  <isProtectable>true</isProtectable>
+  <isReflectable>false</isReflectable>
+  <isSnatchable>false</isSnatchable>
+  <isMirrorable>true</isMirrorable>
+  <isPunch>false</isPunch>
+  <isSound>false</isSound>
+  <canMiss>true</canMiss>
+</Move>

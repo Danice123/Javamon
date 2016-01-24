@@ -1,0 +1,26 @@
+!Branch:LabBattleOver LabBattleOver
+!Branch:BlueLabBattle BlueLabBattle
+!Branch:ChoosePokemon ChoosePokemon
+!Stop:
+@ChoosePokemon
+!Lock:
+!Display:1
+!Walk:p N
+!Unlock
+!Stop:
+@BlueLabBattle
+!Lock:
+!Display:2
+!Walk:Blue W W S
+!StartBattle:RivalSquirtleTrainer
+!Display:3
+!Walk:Blue W S S S S S S S S
+!Hide:Blue
+!Set:LabBattleOver
+!Set:BlueInLab
+!Unlock:
+@LabBattleOver
+!Stop:
+$1:Oak; Hey! Don't go away yet!
+$2:BLUE; Wait RED! Let's check out our Pokemon!/nCome on, I'll take you on!
+$3:BLUE; Waow

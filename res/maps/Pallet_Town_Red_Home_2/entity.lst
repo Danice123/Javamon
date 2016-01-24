@@ -1,0 +1,17 @@
+<List>
+  <entities>
+    <Entity>
+      <type>Sign</type>
+      <name>SNES</name>
+      <x>4</x>
+      <y>3</y>
+      <layer>0</layer>
+      <strings>
+        <entry>
+          <string>text</string>
+          <string>?RED? is playing the SNES!/n...Okay! It's time to go!</string>
+        </entry>
+      </strings>
+    </Entity>
+  </entities>
+</List>
